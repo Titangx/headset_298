@@ -1,0 +1,147 @@
+DEPLOY STARTED for 'deploy/device' in '':
+C:\qtil\ADK_Toolkit_1.2.10.21_x64\ubuild.bat -k "C:\qtil\ADK_Toolkit_1.2.10.21_x64" -p "D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\deploy.x2p" -w "D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\headset.x2w" -c deploy -d device://trb/usb2trb/167685/qcc3040 -x --special "flash=nvscmd deploy_all=no"
+Build with Python 2
+++++++ MERGEXML +++++++++++++++
+MERGE: dkroot C:\qtil\ADK_Toolkit_1.2.10.21_x64, out_file C:\qtil\ADK_Toolkit_1.2.10.21_x64\merge_ubuild.chk
+main C:\qtil\ADK_Toolkit_1.2.10.21_x64\sdk.xml
+ext_file C:\qtil\ADK_Toolkit_1.2.10.21_x64\extensions\dk.xml
+ext_file C:\qtil\ADK_Toolkit_1.2.10.21_x64\extensions\build_system\ext.xml
+ext_file C:\qtil\ADK_Toolkit_1.2.10.21_x64\extensions\multi_cd\ext.xml
+ext_file C:\qtil\ADK_Toolkit_1.2.10.21_x64\extensions\versions\ext.xml
+Merged file C:\qtil\ADK_Toolkit_1.2.10.21_x64\merge_ubuild.chk
+Deploying deploy to 'device://trb/usb2trb/167685/qcc3040'
+PrepareSingleImage: init
+Using FLASH_CONFIG D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\32Mbit_default_flash_config.py
+PrepareSingleImage: init done
+Deploy active project
+Building project: Project: sys_cfg : D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\sys_cfg.x2p, config: filesystem
+Adding dependent project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\sys_cfg.x2p
+Processing project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\sys_cfg.x2p
+Copied D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\curator_config_filesystem.xuv to c:\users\messi1~1\appdata\local\temp\tmpqcnfkz\curator_config_filesystem.xuv
+Building project: Project: fw_cfg : D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\fw_cfg.x2p, config: filesystem
+Adding dependent project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\fw_cfg.x2p
+Processing project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\fw_cfg.x2p
+Copied D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\firmware_config_filesystem_dfu.xuv to c:\users\messi1~1\appdata\local\temp\tmpqcnfkz\firmware_config_filesystem.xuv
+Building project: Project: dev_cfg : D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\dev_cfg.x2p, config: filesystem
+Adding dependent project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\dev_cfg.x2p
+Processing project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\dev_cfg.x2p
+Copied D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\device_config_filesystem_dfu.xuv to c:\users\messi1~1\appdata\local\temp\tmpqcnfkz\device_config_filesystem.xuv
+Building project: Project: ps_cfg : D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\ps_cfg.x2p, config: filesystem
+Adding dependent project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\ps_cfg.x2p
+Processing project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\ps_cfg.x2p
+Copied D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\user_ps_filesystem_dfu.xuv to c:\users\messi1~1\appdata\local\temp\tmpqcnfkz\user_ps_filesystem.xuv
+Building project: Project: ro_fs : D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\ro_fs.x2p, config: filesystem
+Adding dependent project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\ro_fs.x2p
+Processing project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\ro_fs.x2p
+Copied D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\filesystems\customer_ro_filesystem_dfu.xuv to c:\users\messi1~1\appdata\local\temp\tmpqcnfkz\customer_ro_filesystem.xuv
+Building project: Project: appsp0 : D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\bsp\appsp0.x2p, config: prebuilt_image
+Adding dependent project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\bsp\appsp0.x2p
+Processing project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\bsp\appsp0.x2p
+D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\os\qcc514x_qcc304x\hydra_os\bin\image\apps_p0_firmware.xuv
+Copied D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\os\qcc514x_qcc304x\hydra_os\bin\image\apps_p0_firmware.xuv to c:\users\messi1~1\appdata\local\temp\tmpqcnfkz\apps_p0_firmware.xuv
+Building project: Project: headset : D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\headset.x2p, config: debug
+Adding dependent project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\headset.x2p
+Processing project D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\headset.x2p
+prepare_single_image calling elf2xuv()
+Loading elf symbols from D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\depend_debug_qcc514x_qcc304x\headset.elf
+.text_reset block starting at 0x00000000, 104 bytes
+.slt block starting at 0x00000080, 8 bytes
+.slt_app block starting at 0x00000088, 12 bytes
+.text_tcm block starting at 0x00000094, 374 bytes
+.text block starting at 0x0000020a, 557178 bytes
+.text_private block starting at 0x00088284, 3462 bytes
+.const block starting at 0x0008900c, 37972 bytes
+.const_private block starting at 0x00092460, 779 bytes
+.initc block starting at 0x0009276c, 844 bytes
+Done.
+Created c:\users\messi1~1\appdata\local\temp\tmpqcnfkz\headset.xuv
+Device attach succeeded. Using TRB clock speed: 10MHz.
+flash0
+{ 'encrypt': False,
+  'file_paths': { 'flash_config_file': 'D:/Work/Qcc/qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1/headset/32Mbit_default_flash_config.py',
+                  'workspace_file': 'D:/Work/Qcc/qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1/headset/workspace/QCC3044-AA_DEV-BRD-R2-AA/headset.x2w'},
+  'flash_device': { 'alt_image_offset': 2097152,
+                    'block_size': 4096,
+                    'boot_block_size': 4096},
+  'flash_image': { 'bank': 'bank0',
+                   'flash_image_xuv': 'D:\\Work\\Qcc\\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\\headset\\workspace\\QCC3044-AA_DEV-BRD-R2-AA\\flash_image.xuv'},
+  'layout': [ ( 'curator_fs',
+                { 'authenticate': False,
+                  'capacity': 16384,
+                  'src_file': 'c:\\users\\messi1~1\\appdata\\local\\temp\\tmpqcnfkz\\curator_config_filesystem.xuv',
+                  'src_file_signed': False}),
+              ( 'apps_p0',
+                { 'authenticate': True,
+                  'capacity': 659456,
+                  'src_file': 'c:\\users\\messi1~1\\appdata\\local\\temp\\tmpqcnfkz\\apps_p0_firmware.xuv',
+                  'src_file_signed': True}),
+              ( 'apps_p1',
+                { 'authenticate': False,
+                  'capacity': 851968,
+                  'src_file': 'c:\\users\\messi1~1\\appdata\\local\\temp\\tmpqcnfkz\\headset.xuv'}),
+              ( 'device_ro_fs',
+                { 'authenticate': False,
+                  'capacity': 4096,
+                  'inline_auth_hash': True,
+                  'src_file': 'c:\\users\\messi1~1\\appdata\\local\\temp\\tmpqcnfkz\\device_config_filesystem.xuv'}),
+              ( 'rw_config',
+                { 'capacity': 65536,
+                  'src_file': 'c:\\users\\messi1~1\\appdata\\local\\temp\\tmpqcnfkz\\user_ps_filesystem.xuv'}),
+              ( 'ro_cfg_fs',
+                { 'authenticate': False,
+                  'capacity': 208896,
+                  'src_file': 'c:\\users\\messi1~1\\appdata\\local\\temp\\tmpqcnfkz\\firmware_config_filesystem.xuv'}),
+              ( 'ro_fs',
+                { 'authenticate': False,
+                  'capacity': 282624,
+                  'src_file': 'c:\\users\\messi1~1\\appdata\\local\\temp\\tmpqcnfkz\\customer_ro_filesystem.xuv'})]}
+Padding c:\users\messi1~1\appdata\local\temp\tmpqcnfkz\headset.xuv address 0x0 with [(104, 24), (561162, 2)]
+Apps SQIF encryption Nonce 5ea29e90b2e142115e0d03f175af313e
+Section apps_p0 len 588672 : hash 132be6035c1244d4e04ee46f28adcc91
+Boot Image - offset 0x0, size 0x1000
+Image Header:
+Offset 0x00001000 curator_fs          capacity 0x00004000  size 0x00002d50  unused 0x000012b0
+Offset 0x00005000 apps_p0             capacity 0x000a1000  size 0x0008fb70  unused 0x00011490
+Offset 0x000a6000 apps_p1             capacity 0x000d0000  size 0x00092ab8  unused 0x0003d548
+Offset 0x00176000 device_ro_fs        capacity 0x00001000  size 0x00000174  unused 0x00000e8c
+Offset 0x00177000 rw_config           capacity 0x00010000  size 0x00010000  unused 0x00000000
+Offset 0x00187000 ro_cfg_fs           capacity 0x00033000  size 0x00031618  unused 0x000019e8
+Offset 0x001ba000 ro_fs               capacity 0x00045000  size 0x0002f878  unused 0x00015788
+ apps_p0            Hash ptr     0xe0 Hash size  0x8fb70
+Block size: 4096 Bytes
+Name       |   Capacity     |     Used       |    Unused      |  Image size    |
+                |    Blocks      |    Blocks      |    Blocks      |     Bytes      |
+curator_fs      |       4        |       3        |       1        |       11600    |
+apps_p0         |      161       |      144       |      17        |      588656    |
+apps_p1         |      208       |      147       |      61        |      600760    |
+device_ro_fs    |       1        |       1        |       0        |         372    |
+rw_config       |      16        |      16        |       0        |       65536    |
+ro_cfg_fs       |      51        |      50        |       1        |      202264    |
+ro_fs           |      69        |      48        |      21        |      194680    |
+Totals:         |      510       |      409       |      101       |     1663868    |
+Writing 'D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\flash_image.xuv'
+Build completed
+Program the apps SQIF with image: D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\flash_image.xuv
+C:\qtil\ADK_Toolkit_1.2.10.21_x64\tools\bin\nvscmd.exe burn D:\Work\Qcc\qcc514x-qcc304x-src_headset-ADK-22.2-CS1-r00298.1\headset\workspace\QCC3044-AA_DEV-BRD-R2-AA\flash_image.xuv -deviceid 4 0 -trb 167685 -nvstype sqif -norun
+nvscmd, version 3.3.12.1351 Release
+Copyright (c) 2010-2022 Qualcomm Technologies International, Ltd.
+All Rights Reserved.
+Qualcomm Technologies International, Ltd. Confidential and Proprietary.
+
+
+Program the SQIF with a single XUV file...
+.......
+Verify the NVS against a single file...
+..Verify Passed
+
+Success
+Checking device: device://trb/usb2trb/167685/qcc3040
+Device attach succeeded. Using TRB clock speed: 10MHz.
+Connected to device
+Checking if device is readable...
+Reseting device...
+Reset done.
+Checking device: device://trb/usb2trb/167685/qcc3040
+Device attach succeeded. Using TRB clock speed: 10MHz.
+Connected to device
+Checking if device is readable...

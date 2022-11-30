@@ -1,0 +1,18 @@
+
+
+
+primary_service {
+    uuid : 0x8FD0,
+    name : "TELEPHONY_MEDIA_AUDIO_SERVICE",
+
+
+
+    characteristic {
+        uuid : 0x8FC9,
+        name : "ROLE",
+        flags : [ FLAG_IRQ, FLAG_ENCR_R ],
+        properties : [ read ],
+
+        value : [ 0x00, 0x00]
+    }
+},

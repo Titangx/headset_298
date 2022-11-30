@@ -1,0 +1,1 @@
+gatt_tmas_server/gatt_tmas_server_db.dbi_: gatt_tmas_server/gatt_tmas_server_db.dbi gatt_tmas_server/gatt_tmas_server_uuids.h
